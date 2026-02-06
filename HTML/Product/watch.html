@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>K_Store | Products</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="icon" href="../../IMG/logo/logo.png">
+    <link rel="apple-touch-icon" sizes="100x100" href="../../IMG/logo/logo.png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="../../CSS/Style.css">
+</head> 
+<body>
+    <header>
+        <a href="../../index.html" class="logo">
+            <span class="material-symbols-outlined">triangle_circle</span>
+            <span>K_Store</span>
+        </a>
+        
+        <nav>
+            <ul id="Menu">
+                <li><a href="../../index.html">Home</a></li>
+                <li class="has-dropdown">
+                    <a class="Active" href="#">Products <span class="material-symbols-outlined dropdown-icon">expand_more</span></a>
+                    <div class="Dropdown">
+                        <section class="dropdown-section">
+                            <h4>COMPUTING</h4>
+                            <a href="#">Laptops</a> 
+                            <a href="#">Monitors</a>
+                        </section>
+                        <section class="dropdown-section">
+                            <h4>MOBILE</h4>
+                            <a href="#">Smartphones</a> 
+                            <a href="#">Smartwatches</a> 
+                        </section>
+                        <section class="dropdown-section">
+                            <h4>AUDIO</h4>
+                            <a href="#">Headphones</a> 
+                            <a href="#">Speakers</a>
+                        </section>
+                    </div>
+                </li>
+                <li><a href="../Aboutus.html">About us</a></li>
+                <li><a href="../Contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="header-tools">
+            <form class="search-form">
+                <input type="search" placeholder="Search...">
+            </form>
+            <a href="../Cart.html" class="icon-btn"><span class="material-symbols-outlined">shopping_bag</span></a>
+        </div>
+
+        <button class="menu-toggle" id="mobile-menu">
+                <span class="material-symbols-outlined">menu</span>
+        </button>
+    </header>
+
+    <main>
+        <section id="Product">
+            <div class="product-container">
+                <div class="product-img">
+                    <img src="../../IMG/Product/watch/watch.jpg" alt="watch">
+                    <div class="product-sub-img"> 
+                        <img src="../../IMG/Product/watch/watch.jpg" alt="watch">
+                        <img src="../../IMG/Product/watch/watch2.jpg" alt="watch2">
+                        <img src="../../IMG/Product/watch/watch3.jpg" alt="watch3">
+                        <img src="../../IMG/Product/watch/watch4.jpg" alt="watch4">
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h2>AuraPulse Watch GT-1</h2>
+                    <h3>Quantity</h3>
+                    <input type="number" value="1" min="0">
+                    <h2>Price: $129</h2>
+                    <span>Bio-metric Intelligence on Your Wrist.</span>
+                    <h4>Specifications</h4>
+                    <p><strong>Display:</strong> 1.5” LTPO AMOLED, Always-on 2000 nits Peak Brightness. <br>
+                    <strong>Sensors:</strong> Non-invasive Blood Glucose Monitoring, SpO2, and ECG. <br>
+                    <strong>Durability:</strong> IP68 Water Resistance & Military-grade MIL-STD-810H. <br>
+                    <strong>Battery:</strong> 5-Day "Extreme Mode" or 48 hours heavy usage.</p>
+                    <p><strong>Description:</strong> Crafted from aerospace-grade titanium, the AuraPulse GT-1 features an AI-driven coaching system that analyzes your biomechanics in real-time, providing actionable insights for peak performance.</p>
+                    <button>Add to Cart</button> </div>
+            </div>
+        </section>
+
+        <section id="form">
+            <div class="Newsletters">
+                <h2>Newsletter</h2>
+                <p>First to Know. First to Own.</p>
+            </div>
+            <form class="form-card">
+                <input type="email" placeholder="Email Address...">
+                <button type="button" id="signup-btn">Sign Up</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-brand">
+                <span class="material-symbols-outlined">triangle_circle</span>
+                <h3>K_Store</h3>
+                <p>Your one-stop shop for creative albums and innovative lifestyle products.</p>
+            </div>
+
+            <div class="link-group">
+                <h4>Contact</h4>
+                <ul>
+                    <li><span class="material-symbols-outlined">call</span> +34 254398</li>
+                    <li><span class="material-symbols-outlined">mail</span> info@K_Store.lk</li>
+                    <li><span class="material-symbols-outlined">location_on</span> New York, USA</li>
+                </ul>
+            </div>
+
+            <div class="link-group">
+                <h4>Company</h4>
+                <ul>
+                    <li><a href="#">Profile</a></li>
+                    <li><a href="#">Product</a></li>
+                    <li><a href="#">About Us</a></li>
+                </ul>
+            </div>
+
+            <div class="link-group">
+                <h4>Policies</h4>
+                <ul>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Refund Policy</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+        </div> 
+        <div class="footer-bottom">
+            <p>&copy; 2026 <strong>K_Store Ltd.</strong> Developed by Mr.PL Group</p>
+        </div>
+    </footer>
+    <script src="../../JS/Proguct.js"></script>
+    <script src="../../JS/Script.js"></script>
+</body>
+</html>

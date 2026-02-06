@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>K_Store | Contact</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="icon" href="../IMG/logo/logo.png">
+    <link rel="apple-touch-icon" sizes="100x100" href="../IMG/logo/logo.png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="../CSS/Style.css">
+</head> 
+<body>
+    <header>
+        <a href="../index.html" class="logo">
+            <span class="material-symbols-outlined">triangle_circle</span>
+            <span>K_Store</span>
+        </a>
+        
+        <nav>
+            <ul id="Menu">
+                <li><a href="../index.html">Home</a></li>
+                <li class="has-dropdown">
+                    <a href="#">Products <span class="material-symbols-outlined dropdown-icon">expand_more</span></a>
+                    <div class="Dropdown">
+                        <section class="dropdown-section">
+                            <h4>COMPUTING</h4>
+                            <a href="#">Laptops</a> 
+                            <a href="#">Monitors</a>
+                        </section>
+                        <section class="dropdown-section">
+                            <h4>MOBILE</h4>
+                            <a href="#">Smartphones</a> 
+                            <a href="#">Smartwatches</a> 
+                        </section>
+                        <section class="dropdown-section">
+                            <h4>AUDIO</h4>
+                            <a href="#">Headphones</a> 
+                            <a href="#">Speakers</a>
+                        </section>
+                    </div>
+                </li>
+                <li><a href="./Aboutus.html">About us</a></li>
+                <li><a class="Active" href="./Contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="header-tools">
+            <form class="search-form">
+                <input type="search" placeholder="Search...">
+            </form>
+            <a href="./Cart.html" class="icon-btn"><span class="material-symbols-outlined">shopping_bag</span></a>
+        </div>
+
+        <button class="menu-toggle" id="mobile-menu">
+                <span class="material-symbols-outlined">menu</span>
+        </button>
+    </header>
+
+    <main>
+        <section id="contact-section-container">
+            <div class="contact-top-wrapper">
+                <div class="contact-info-content">
+                    <h2 class="section-title">Get in Touch</h2>
+                    <p class="description">Have a question about the Mind-Sync Pro or your recent order? Our technical support team is standing by to assist you with any inquiries regarding our next-gen hardware.</p>
+                    
+                    <div class="info-grid">
+                        <div class="info-item">
+                            <span class="material-symbols-outlined">call</span>
+                            <div class="info-detali">
+                                <h3>Phone Support</h3>
+                                <p>Primary: +34 254398</p>
+                                <p class="sub-text">Mon–Fri, 9:00 AM – 6:00 PM (EST)</p>
+                            </div>
+                        </div>
+
+                        <div class="info-item">
+                            <span class="material-symbols-outlined">mail</span>
+                            <div class="info-detali">
+                                <h3>Email Inquiry</h3>
+                                <p>General: info@K_Store.lk</p>
+                                <p>Technical: support@K_Store.lk</p>
+                                <p class="sub-text">Response Time: Within 24 hours.</p>
+                            </div>
+                        </div>
+
+                        <div class="info-item">
+                            <span class="material-symbols-outlined">location_on</span>
+                            <div class="info-detali">
+                                <h3>Global Headquarters</h3>
+                                <p>452 Futuristic Way, Tech District, New York, NY 10001, USA.</p>
+                                <p class="note"><strong>Note:</strong> Our showroom is currently open for private demos by appointment only.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="core-values">
+                        <h3>The Core Values</h3>
+                        <ul>
+                            <li><strong>Radical Performance:</strong> We believe lag is a choice. We provide the hardware to eliminate it.</li>
+                            <li><strong>Human-Centric Design:</strong> Technology should feel like an extension of yourself, not a burden.</li>
+                            <li><strong>Transparency:</strong> We provide raw benchmarks and honest hardware reviews.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="contact-map-wrapper">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2429.582888258356!2d-1.256860023319409!3d51.75481977187122!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4876c6a9ef8c485b%3A0xd2ff1883a001afed!2sUniversity%20of%20Oxford!5e0!3m2!1sen!2sth!4v1700000000000!5m2!1sen!2sth" 
+                        width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy">
+                    </iframe>
+                </div>
+            </div>
+
+            <div class="contact-form-wrapper">
+                <h2 class="section-title">Send us a Message</h2>
+                <form id="mind-sync-form">
+                    <div class="form-group">
+                        <input type="text" id="name" placeholder="Full Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" placeholder="Email Address" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" placeholder="Subject">
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">SUBMIT</button>
+                </form>
+            </div>
+        </section>
+
+        <section id="form">
+            <div class="Newsletters">
+                <h2>Newsletter</h2>
+                <p>First to Know. First to Own.</p>
+            </div>
+            <form class="form-card">
+                <input type="email" placeholder="Email Address...">
+                <button type="button" id="signup-btn">Sign Up</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-brand">
+                <span class="material-symbols-outlined">triangle_circle</span>
+                <h3>K_Store</h3>
+                <p>Your one-stop shop for creative albums and innovative lifestyle products.</p>
+            </div>
+
+            <div class="link-group">
+                <h4>Contact</h4>
+                <ul>
+                    <li><span class="material-symbols-outlined">call</span> +34 254398</li>
+                    <li><span class="material-symbols-outlined">mail</span> info@K_Store.lk</li>
+                    <li><span class="material-symbols-outlined">location_on</span> New York, USA</li>
+                </ul>
+            </div>
+
+            <div class="link-group">
+                <h4>Company</h4>
+                <ul>
+                    <li><a href="#">Profile</a></li>
+                    <li><a href="#">Product</a></li>
+                    <li><a href="#">About Us</a></li>
+                </ul>
+            </div>
+
+            <div class="link-group">
+                <h4>Policies</h4>
+                <ul>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Refund Policy</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+        </div> 
+        <div class="footer-bottom">
+            <p>&copy; 2026 <strong>K_Store Ltd.</strong> Developed by Mr.PL Group</p>
+        </div>
+    </footer>
+
+    <script src="../JS/Script.js"></script>
+</body>
+</html>

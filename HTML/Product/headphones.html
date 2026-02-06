@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>K_Store | Products</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="icon" href="../../IMG/logo/logo.png">
+    <link rel="apple-touch-icon" sizes="100x100" href="../../IMG/logo/logo.png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="../../CSS/Style.css">
+</head> 
+<body>
+    <header>
+        <a href="../../index.html class="logo">
+            <span class="material-symbols-outlined">triangle_circle</span>
+            <span>K_Store</span>
+        </a>
+        
+        <nav>
+            <ul id="Menu">
+                <li><a href="../../index.html">Home</a></li>
+                <li class="has-dropdown">
+                    <a class="Active" href="#">Products <span class="material-symbols-outlined dropdown-icon">expand_more</span></a>
+                    <div class="Dropdown">
+                        <section class="dropdown-section">
+                            <h4>COMPUTING</h4>
+                            <a href="#">Laptops</a> 
+                            <a href="#">Monitors</a>
+                        </section>
+                        <section class="dropdown-section">
+                            <h4>MOBILE</h4>
+                            <a href="#">Smartphones</a> 
+                            <a href="#">Smartwatches</a> 
+                        </section>
+                        <section class="dropdown-section">
+                            <h4>AUDIO</h4>
+                            <a href="#">Headphones</a> 
+                            <a href="#">Speakers</a>
+                        </section>
+                    </div>
+                </li>
+                <li><a href="../Aboutus.html">About us</a></li>
+                <li><a href="../Contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="header-tools">
+            <form class="search-form">
+                <input type="search" placeholder="Search...">
+            </form>
+            <a href="../Cart.html" class="icon-btn"><span class="material-symbols-outlined">shopping_bag</span></a>
+        </div>
+
+        <button class="menu-toggle" id="mobile-menu">
+                <span class="material-symbols-outlined">menu</span>
+        </button>
+    </header>
+
+    <main>
+        <section id="Product">
+            <div class="product-container">
+                <div class="product-img">
+                    <img src="../../IMG/Product/headphones/headphones.jpg" alt="headphones">
+                    <div class="product-sub-img"> 
+                        <img src="../../IMG/Product/headphones/headphones.jpg" alt="headphones1">
+                        <img src="../../IMG/Product/headphones/headphones2.jpg" alt="headphones2">
+                        <img src="../../IMG/Product/headphones/headphones3.jpg" alt="headphones3">
+                        <img src="../../IMG/Product/headphones/headphones4.jpg" alt="headphones4">
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h2>SonicVoid Pro - Hybrid ANC</h2>
+                    <h3>Quantity</h3>
+                    <input type="number" value="1" min="0">
+                    <h2>Price: $349</h2>
+                    <span>Silence the World. Feel the Sound.</span>
+                    <h4>Specifications</h4>
+                    <p><strong>Audio Drivers:</strong> 45mm Graphene-Coated Dynamic Drivers.. <br>
+                    <strong>Noise Cancellation:</strong> Adaptive Hybrid ANC (up to 42dB reduction). <br>
+                    <strong>Connectivity:</strong> Bluetooth 5.4 with Multipoint Pairing. <br>
+                    <strong>Codec Support:</strong> LDAC, aptX Adaptive, and AAC.</p>
+                    <p><strong>Description:</strong> Experience immersive Spatial Audio with ultra-low latency. The SonicVoid Pro uses machine learning to tune audio profiles specifically to your unique hearing map..</p>
+                    <button>Add to Cart</button> </div>
+            </div>
+        </section>
+
+        <section id="form">
+            <div class="Newsletters">
+                <h2>Newsletter</h2>
+                <p>First to Know. First to Own.</p>
+            </div>
+            <form class="form-card">
+                <input type="email" placeholder="Email Address...">
+                <button type="button" id="signup-btn">Sign Up</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-brand">
+                <span class="material-symbols-outlined">triangle_circle</span>
+                <h3>K_Store</h3>
+                <p>Your one-stop shop for creative albums and innovative lifestyle products.</p>
+            </div>
+
+            <div class="link-group">
+                <h4>Contact</h4>
+                <ul>
+                    <li><span class="material-symbols-outlined">call</span> +34 254398</li>
+                    <li><span class="material-symbols-outlined">mail</span> info@K_Store.lk</li>
+                    <li><span class="material-symbols-outlined">location_on</span> New York, USA</li>
+                </ul>
+            </div>
+
+            <div class="link-group">
+                <h4>Company</h4>
+                <ul>
+                    <li><a href="#">Profile</a></li>
+                    <li><a href="#">Product</a></li>
+                    <li><a href="#">About Us</a></li>
+                </ul>
+            </div>
+
+            <div class="link-group">
+                <h4>Policies</h4>
+                <ul>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Refund Policy</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+        </div> 
+        <div class="footer-bottom">
+            <p>&copy; 2026 <strong>K_Store Ltd.</strong> Developed by Mr.PL Group</p>
+        </div>
+    </footer>
+    <script src="../../JS/Proguct.js"></script>
+    <script src="../../JS/Script.js"></script>
+</body>
+</html>

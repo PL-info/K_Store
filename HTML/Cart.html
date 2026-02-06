@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>K_Store | Cart</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="icon" href="../IMG/logo/logo.png">
+    <link rel="apple-touch-icon" sizes="100x100" href="../IMG/logo/logo.png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="../CSS/Style.css">
+</head> 
+<body>
+    <header>
+        <a href="../index.html" class="logo">
+            <span class="material-symbols-outlined">triangle_circle</span>
+            <span>K_Store</span>
+        </a>
+        
+        <nav>
+            <ul id="Menu">
+                <li><a href="../index.html">Home</a></li>
+                <li class="has-dropdown">
+                    <a href="#">Products <span class="material-symbols-outlined dropdown-icon">expand_more</span></a>
+                    <div class="Dropdown">
+                        <section class="dropdown-section">
+                            <h4>COMPUTING</h4>
+                            <a href="#">Laptops</a> 
+                            <a href="#">Monitors</a>
+                        </section>
+                        <section class="dropdown-section">
+                            <h4>MOBILE</h4>
+                            <a href="#">Smartphones</a> 
+                            <a href="#">Smartwatches</a> 
+                        </section>
+                        <section class="dropdown-section">
+                            <h4>AUDIO</h4>
+                            <a href="#">Headphones</a> 
+                            <a href="#">Speakers</a>
+                        </section>
+                    </div>
+                </li>
+                <li><a href="./Aboutus.html">About us</a></li>
+                <li><a href="./Contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="header-tools">
+            <form class="search-form">
+                <input type="search" placeholder="Search...">
+            </form>
+            <a href="./Cart.html" class="icon-btn"><span class="material-symbols-outlined">shopping_bag</span></a>
+        </div>
+
+        <button class="menu-toggle" id="mobile-menu">
+                <span class="material-symbols-outlined">menu</span>
+        </button>
+    </header>
+
+    <main>
+        <section class="cart-container-main">
+            <div class="cart-wrapper">
+                <div class="cart-table-responsive-wrapper">
+                <table class="cart-product-table">
+                    <thead>
+                    <tr>
+                        <th>Product Details</th>
+                        <th class="text-center">Price</th>
+                        <th class="text-center">Quantity</th>
+                        <th class="text-center">Total</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>
+                        <div class="cart-item-flex">
+                            <div class="cart-img-placeholder">
+                            <img src="../IMG/Product/camera/camera.jpg" alt="Mind-Sync Pro">
+                            </div>
+                            <div class="cart-item-info">
+                            <span class="cart-item-name">Mind-Sync Pro: Neural Command Link</span>
+                            <span class="cart-item-sku">SKU: MS-PRO-01, Carbon Black</span>
+                            </div>
+                        </div>
+                        </td>
+                        <td class="text-center">$599.00</td>
+                        <td class="text-center">1</td>
+                        <td class="text-center"><strong>$599.00</strong></td>
+                    </tr>
+                    <tr>
+                        <td>
+                        <div class="cart-item-flex">
+                            <div class="cart-img-placeholder">
+                            <img src="../IMG/Product/headphones/headphones.jpg" alt="SonicVoid Pro">
+                            </div>
+                            <div class="cart-item-info">
+                            <span class="cart-item-name">SonicVoid Pro - Hybrid ANC</span>
+                            <span class="cart-item-sku">SKU: SV-PRO-H, Midnight Silver</span>
+                            </div>
+                        </div>
+                        </td>
+                        <td class="text-center">$349.00</td>
+                        <td class="text-center">2</td>
+                        <td class="text-center"><strong>$698.00</strong></td>
+                    </tr>
+                    <tr>
+                        <td>
+                        <div class="cart-item-flex">
+                            <div class="cart-img-placeholder">
+                            <img src="../IMG/Product/controller/controller.jpg" alt="Stratos Pro X">
+                            </div>
+                            <div class="cart-item-info">
+                            <span class="cart-item-name">Stratos Pro X - Modular Controller</span>
+                            <span class="cart-item-sku">SKU: ST-PRO-X, Arctic White</span>
+                            </div>
+                        </div>
+                        </td>
+                        <td class="text-center">$159.00</td>
+                        <td class="text-center">1</td>
+                        <td class="text-center"><strong>$159.00</strong></td>
+                    </tr>
+                    </tbody>
+                </table>
+                </div>
+
+                <div class="cart-footer-grid">
+                
+                <div class="cart-features-section">
+                    <div class="cart-promo-box">
+                    <h4 class="section-cart-title">Promo Code</h4>
+                    <div class="promo-applied">
+                        <span class="promo-tag">NEURAL2026 applied</span>
+                        <p class="promo-desc">10% Discount on Mind-Sync accessories.</p>
+                    </div>
+                    </div>
+                    
+                    <div class="cart-shipping-selection">
+                    <h4 class="section-title">Shipping Method</h4>
+                    <div class="shipping-grid">
+                        <label class="shipping-card">
+                        <input type="radio" name="shipping" checked>
+                        <div class="shipping-content">
+                            <span class="ship-name">Standard Delivery</span>
+                            <span class="ship-time">3-5 Business Days</span>
+                            <span class="ship-price">Free</span>
+                        </div>
+                        </label>
+                        <label class="shipping-card">
+                        <input type="radio" name="shipping">
+                        <div class="shipping-content">
+                            <span class="ship-name">Quantum Express</span>
+                            <span class="ship-time">Next-Day Delivery</span>
+                            <span class="ship-price">+$25.00</span>
+                        </div>
+                        </label>
+                    </div>
+                    </div>
+
+                    <div class="cart-protection-plan">
+                    <h4 class="section-title">Protection Plan</h4>
+                    <label class="cart-checkbox-option">
+                        <input type="checkbox">
+                        <span>Add <strong>K_Care+</strong> 2-Year Extended Warranty (+$149.00)</span>
+                    </label>
+                    </div>
+                </div>
+
+                <div class="cart-summary-card">
+                    <h3>Order Summary</h3>
+                    <div class="summary-line">
+                        <span>Subtotal:</span>
+                        <span>$1,456.00</span>
+                    </div>
+                    <div class="summary-line">
+                        <span>Shipping:</span>
+                        <span class="free-shipping">$0.00 (Global Express)</span>
+                    </div>
+                    <div class="summary-line">
+                        <span>Estimated Tax (NY):</span>
+                        <span>$129.22</span>
+                    </div>
+                        <hr class="summary-divider">
+                        <div class="summary-line total-line">
+                    <span>Order Total:</span>
+                    <span>$1,585.22</span>
+                    </div>
+                    <button class="checkout-btn">Proceed to Checkout</button>
+                </div>
+                
+                </div>
+            </div>
+            </section>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-brand">
+                <span class="material-symbols-outlined">triangle_circle</span>
+                <h3>K_Store</h3>
+                <p>Your one-stop shop for creative albums and innovative lifestyle products.</p>
+            </div>
+
+            <div class="link-group">
+                <h4>Contact</h4>
+                <ul>
+                    <li><span class="material-symbols-outlined">call</span> +34 254398</li>
+                    <li><span class="material-symbols-outlined">mail</span> info@K_Store.lk</li>
+                    <li><span class="material-symbols-outlined">location_on</span> New York, USA</li>
+                </ul>
+            </div>
+
+            <div class="link-group">
+                <h4>Company</h4>
+                <ul>
+                    <li><a href="#">Profile</a></li>
+                    <li><a href="#">Product</a></li>
+                    <li><a href="#">About Us</a></li>
+                </ul>
+            </div>
+
+            <div class="link-group">
+                <h4>Policies</h4>
+                <ul>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Refund Policy</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+        </div> 
+        <div class="footer-bottom">
+            <p>&copy; 2026 <strong>K_Store Ltd.</strong> Developed by Mr.PL Group</p>
+        </div>
+    </footer>
+
+    <script src="../JS/Script.js"></script>
+</body>
+</html>
